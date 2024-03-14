@@ -173,6 +173,7 @@ section:last-child {
                                         /* Section projets */
 
 /* Carrousel */
+
 #projets {
         background-image: linear-gradient(var(--3),var(--4));
         min-height: 100vh;
@@ -281,8 +282,7 @@ section:last-child {
   
   .formation_items {
     display: flex;
-    align-items: center; 
-    width: 70vh;
+    width: 50%;
     height: 20vh; 
     background-color: white;
     border: 2px solid;
@@ -293,9 +293,15 @@ section:last-child {
   }
   
   .formation_icons {
-    width: 20%;
-    margin: 20px; 
-    
+    display: flex;
+    align-items: center; 
+    width: 50%;
+  }
+
+  .formation_icons img{
+    width: 50%;
+    height: auto;
+    margin: 1px;  
   }
 
 /* Section résumé */
