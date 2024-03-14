@@ -136,12 +136,12 @@ section:last-child {
     border-radius: 40px 0 0 40px;
     height: 25%;
     border : 1px solid rgba(255, 255, 255, 0.999); 
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.651);
 }
 
 
-/* Section skills */
+                                        /* Section skills */
 
-/* Section skills */
 #skills {
     background-image: linear-gradient(var(--2),var(--3));
 }
@@ -185,7 +185,10 @@ section:last-child {
         box-sizing: border-box;
     }
 
-    .container {
+    .href_projets {
+        text-decoration: none;
+    }
+    .projets_container {
     width: 100%;
     display: flex;
     justify-content: center;
