@@ -9,7 +9,7 @@
 
 
 :root {
-    --1 : #05668D;
+    --1: #05668D;
     --2: #48bfe3ff;
     --3: #56cfe1ff;
     --4: #64dfdfff;
@@ -24,12 +24,16 @@ body, html {
     scroll-behavior: smooth;
 }
 
+                                        /* Nav */
+
 #navbar {
     background-color: rgba(174, 170, 170, 0.419);
     position: fixed;
-    top: 10px; 
+    top: 2%; 
+    height: 4%;
     width: calc(100% - 20px); 
-    left: 10px; 
+    left: 1%;
+    right: 1%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +51,7 @@ body, html {
     justify-content: center; 
     align-items: center; 
     width: 100%; 
+    overflow: hidden;
 }
 
 #navbar ul li {
@@ -63,8 +68,12 @@ body, html {
     gap: 5px; 
 }
 
+#navbar ul li a:hover{
+    color:rgb(31, 255, 184) ;
+}
+
 section {
-    padding: 60px 0;
+    padding: 100px ;
     text-align: center;
     min-height: 100vh; 
     display: flex;
@@ -75,7 +84,8 @@ section:last-child {
     border-bottom: none;
   }
 
-/* Section accueil */
+
+                                        /* Section accueil */
 
 #accueil {
     /* background: var(--1); */
@@ -97,7 +107,7 @@ section:last-child {
 
 .accueil-gauche, .accueil-droite {
     flex: 1;
-    padding: 20px; 
+    padding: 2%; 
 }
 
 .accueil-gauche {
@@ -108,7 +118,7 @@ section:last-child {
 
 .accueil-gauche img {
     width: 100%;
-    max-width: 600px; 
+    max-width: 30%; 
     height: 100vh; 
     object-fit: cover; 
     position: absolute; 
@@ -127,6 +137,7 @@ section:last-child {
     height: 25%;
     border : 1px solid rgba(255, 255, 255, 0.999); 
 }
+
 
 /* Section skills */
 
