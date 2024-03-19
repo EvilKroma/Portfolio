@@ -12,7 +12,7 @@
         </div>
         
         <div>
-          <a href="PJ_ToolBox.php" target="_blank">
+          <a href="PJ_ToolBox.php" target="_blank" class="href_projets">
             <div class="content">
               <h2>Projet ToolBox</h2>
               <span>Création commune de différents outils</span>
@@ -21,7 +21,7 @@
         </div>
 
         <div>
-          <a href="PJBBV2.php" target="_blank">
+          <a href="PJBBV2.php" target="_blank" class="href_projets">
             <div class="content">
               <h2>Projet Biblio v2</h2>
               <span>Adaptation professionnelle du projet bibliothèque</span>
@@ -30,7 +30,7 @@
         </div>
 
         <div>
-          <a href="PJ_Eventura.php" target="_blank">
+          <a href="PJ_Eventura.php" target="_blank" class="href_projets">
             <div class="content">
               <h2>Organisateur d'évènements</h2>
               <span>Création d'une app mobile d'oragnisation d'évènements</span>
