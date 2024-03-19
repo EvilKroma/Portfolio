@@ -189,6 +189,7 @@ section:last-child {
     .href_projets {
         text-decoration: none;
     }
+    
     .projets_container {
     width: 100%;
     display: flex;
@@ -206,19 +207,19 @@ section:last-child {
         overflow: hidden;
 
         &:nth-of-type(1) {
-        background: url("addons/imgs/cards/projets/BBV1.png")
+        background: url("/Portfolio/addons/imgs/cards/projets/BBV1.png")
             no-repeat 50% / cover;
         }
         &:nth-of-type(2) {
-        background: url("addons/imgs/cards/projets/ToolBox.png")
+        background: url("/Portfolio/addons/imgs/cards/projets/ToolBox.png")
             no-repeat 50% / cover;
         }
         &:nth-of-type(3) {
-        background: url("addons/imgs/cards/projets/BBV2.png")
+        background: url("/Portfolio/addons/imgs/cards/projets/BBV2.png")
             no-repeat 50% / cover;
         }
         &:nth-of-type(4) {
-        background: url("addons/imgs/cards/projets/Eventura.png")
+        background: url("/Portfolio/addons/imgs/cards/projets/Eventura.png")
             no-repeat 50% / cover;
         }
 
