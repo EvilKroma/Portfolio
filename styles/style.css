@@ -1,0 +1,117 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* S'assure que le html et le body prennent la hauteur totale */
+    width: 100%; /* S'assure que le html et le body prennent la largeur totale */
+    scroll-behavior: smooth;
+}
+
+            /* Styles pour la nav */
+#sidebar {
+    position: fixed; /* Fixe la navigation à la gauche de la page */
+    top: 0;
+    left: 0;
+    width: 70%; 
+    height: 100%; 
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.61), rgba(54, 54, 54, 0)); /* Dégradé horizontal */
+    display: flex;
+    align-items: center; /* Centrage vertical des éléments internes */
+    box-sizing: border-box;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+}
+
+#sidebar ul li {
+    width: 100%; /* S'assure que chaque élément li utilise toute la largeur */
+    display: flex; /* Alignement vertical des éléments */
+    justify-content: flex-start; /* Aligner les items à gauche */
+}
+
+#sidebar ul li a {
+    display: block; /* Étend les liens pour remplir les éléments li */
+    padding: 1.2%;
+    padding-left: 3%; /* Ajoute un espace à gauche pour que les icônes ne soient pas collées au bord */
+}
+
+#sidebar ul li a img {
+    filter: brightness(0) invert(1); /* Rend les images blanches */
+    width: 40px; /* Taille des icônes */
+    height: 40px; 
+}
+
+
+
+
+
+
+
+                    /* Styles pour home */
+#home {
+    height: 100vh;
+    background-image: url("../addons/imgs/home_background.JPG");
+    background-size: cover; /* Ajuste l'image pour couvrir entièrement la zone sans déformation */
+    background-position: center; /* Centre l'image dans la section */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+.buttons_container {
+    position: absolute;
+    bottom: 20%; /* Position par rapport au bas */
+    left: 15%; /* Espacement depuis la gauche de la page, ajustez selon l'épaisseur de votre sidebar */
+    z-index: 1000; /* S'assure que les boutons sont au-dessus de la sidebar */
+    display: flex;
+    gap: 10px; /* Espace entre les boutons */
+}
+
+.button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px; /* Bords arrondis */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: inherit; /* Hérite de la couleur du parent */
+    font-size: 16px; /* Taille de police */
+    font-weight: bold;
+}
+
+.button a.play {
+    background-color: white;
+    color: black;
+}
+
+.button a.cv {
+    background-color: rgba(24, 24, 24, 0.582);
+    color: white;
+}
+
+.button a.cv img {
+    filter: invert(100%); /* Inverse les couleurs pour rendre le noir blanc et vice versa */
+}
+
+
+.button img {
+    width: 20px; /* Taille des icônes */
+    height: 20px;
+    margin-right: 5px; /* Espace entre l'icône et le texte */
+}
+
+.button span {
+    margin-left: 10px; /* Espace après l'icône */
+}
+
+
+
+
+
+
+
+#projects, #experiences, #education, #contact {
+    height: 100vh;
+}

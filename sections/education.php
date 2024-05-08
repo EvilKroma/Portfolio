@@ -1,0 +1,3 @@
+<section id="education">
+
+</section>
