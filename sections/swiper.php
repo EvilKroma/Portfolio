@@ -53,9 +53,9 @@
                 </div>
                 
             </div>
-            <!-- If we need navigation buttons -->
+            <!-- If we need navigation buttons
             <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-next"></div> -->
         </div>
     </section>
     
