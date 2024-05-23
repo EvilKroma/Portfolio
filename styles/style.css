@@ -72,7 +72,7 @@ html, body {
 
                     /* Styles pour home */
 #home {
-    height: 120vh;
+    height: 100vh;
     background-image: url("../addons/imgs/home_background.JPG");
     background-size: cover; /* Ajuste l'image pour couvrir entièrement la zone sans déformation */
     background-position: center; /* Centre l'image dans la section */
