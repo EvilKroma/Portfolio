@@ -72,7 +72,7 @@ html, body {
 
                     /* Styles pour home */
 #home {
-    height: 80vh;
+    height: 120vh;
     background-image: url("../addons/imgs/home_background.JPG");
     background-size: cover; /* Ajuste l'image pour couvrir entièrement la zone sans déformation */
     background-position: center; /* Centre l'image dans la section */
@@ -80,10 +80,10 @@ html, body {
 }
 
 .buttons_container {
+    
     position: absolute;
-    bottom: 20%; /* Position par rapport au bas */
+    bottom: 35%; /* Position par rapport au bas */
     left: 15%; /* Espacement depuis la gauche de la page, ajustez selon l'épaisseur de votre sidebar */
-    z-index: 1000; /* S'assure que les boutons sont au-dessus de la sidebar */
     display: flex;
     gap: 10px; /* Espace entre les boutons */
 }
@@ -101,11 +101,13 @@ html, body {
 }
 
 .button a.play {
+    width: 10vh;
     background-color: white;
     color: black;
 }
 
 .button a.cv {
+    width: 15vh;
     background-color: rgba(24, 24, 24, 0.582);
     color: white;
 }
@@ -148,6 +150,7 @@ html, body {
 }
 
 .thumbTiles.swiper-container {
+    margin-top: 32%; /* Espacement du haut de la page */
     padding: 0 4%;
     overflow-x: hidden;
 }
@@ -161,52 +164,3 @@ html, body {
     border-radius: var(--tileBorderRadius);
 }
 
-.thumbTiles .swiper-button-prev,
-.thumbTiles .swiper-button-next {
-    height: 100%;
-    width: 4%;
-    width: calc(4% - 5px);
-    top: 0;
-    bottom: 0;
-    margin: 0;
-    background-color: rgba(20, 20, 20, 0.5);
-}
-
-.thumbTiles .swiper-button-prev {
-    left: 0;
-    border-top-right-radius: var(--tileBorderRadius);
-    border-bottom-right-radius: var(--tileBorderRadius);
-}
-
-.thumbTiles .swiper-button-next {
-    right: 0;
-    border-top-left-radius: var(--tileBorderRadius);
-    border-bottom-left-radius: var(--tileBorderRadius);
-}
-
-.thumbTiles .swiper-button-prev::after,
-.thumbTiles .swiper-button-next::after {
-    color: #fff;
-    font-size: 4vw;
-    font-weight: bold;
-    transition: transform 0.1s ease-out;
-}
-
-@media screen and (min-width: 640px) {
-    .thumbTiles .swiper-button-prev::after,
-    .thumbTiles .swiper-button-next::after {
-        display: none;
-        font-size: 2.4vw;
-    }
-
-    .thumbTiles .swiper-button-prev:hover::after,
-    .thumbTiles .swiper-button-next:hover::after {
-        transform: scale(1.25);
-    }
-
-    .thumbTiles:hover .swiper-button-prev::after,
-    .thumbTiles:hover .swiper-button-next::after {
-        display: block;
-    }
-
-}

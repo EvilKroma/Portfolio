@@ -15,4 +15,5 @@
         </div>
 
     </div>
+    <?php require "swiper.php" ?>
 </section>
