@@ -5,7 +5,7 @@
 
     --tileBorderRadius: 4px;
 
-    --fontOne: 'Helvetica Neue', Helevetica, Arial, sans-serif;
+    --fontOne: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -72,7 +72,7 @@ html, body {
 
                     /* Styles pour home */
 #home {
-    height: 100vh;
+    height: 80vh;
     background-image: url("../addons/imgs/home_background.JPG");
     background-size: cover; /* Ajuste l'image pour couvrir entièrement la zone sans déformation */
     background-position: center; /* Centre l'image dans la section */
@@ -131,14 +131,13 @@ html, body {
 
                     /* Projets */
 
+.headerLogo {
+    width: 120px;
+}
+
 .thumbSection {
     padding-top: 3%;
     color: var(--colorWhite);
-    height: 100vh;
-}
-
-.thumbTiles  {
-    margin-top: 400px;
 }
 
 .thumbTitle {
@@ -148,22 +147,24 @@ html, body {
     margin: 0 4% 12px;
 }
 
-.thumbTiles.swiper {
+.thumbTiles.swiper-container {
     padding: 0 4%;
+    overflow-x: hidden;
 }
 
-.thumbTile{
+.thumbTile {
     width: 20%;
 }
 
-.swiper-slide img {
-     width: 60%;
-     border-radius: var(--tileBorderRadius)
+.thumbTile__image {
+    width: 100%;
+    border-radius: var(--tileBorderRadius);
 }
 
 .thumbTiles .swiper-button-prev,
 .thumbTiles .swiper-button-next {
     height: 100%;
+    width: 4%;
     width: calc(4% - 5px);
     top: 0;
     bottom: 0;
@@ -177,7 +178,7 @@ html, body {
     border-bottom-right-radius: var(--tileBorderRadius);
 }
 
-.thumbTiles .swiper-button-next{
+.thumbTiles .swiper-button-next {
     right: 0;
     border-top-left-radius: var(--tileBorderRadius);
     border-bottom-left-radius: var(--tileBorderRadius);
@@ -193,18 +194,19 @@ html, body {
 
 @media screen and (min-width: 640px) {
     .thumbTiles .swiper-button-prev::after,
-    .thumbTiles .swiper-button-next::after{
+    .thumbTiles .swiper-button-next::after {
         display: none;
         font-size: 2.4vw;
     }
 
     .thumbTiles .swiper-button-prev:hover::after,
-    .thumbTiles .swiper-button-next:hover::after{
+    .thumbTiles .swiper-button-next:hover::after {
         transform: scale(1.25);
     }
 
     .thumbTiles:hover .swiper-button-prev::after,
-    .thumbTiles:hover .swiper-button-next::after{
+    .thumbTiles:hover .swiper-button-next::after {
         display: block;
     }
+
 }
