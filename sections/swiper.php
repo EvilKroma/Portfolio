@@ -6,42 +6,42 @@
                     <!-- Slides -->
                     <!-- <div class="swiper-slide">
                         <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons\imgs\BBV1.png" alt="BBV1">
+                            <img class="thumbTile__image" src="addons\imgs\projets\projetsBBV1.png" alt="BBV1">
                         </a>
                     </div> -->
                     <div class="swiper-slide">
                         <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons\imgs\BBV2.png" alt="BBV2">
+                            <img class="thumbTile__image" src="addons\imgs\projets\After_Blast.png" alt="BBV2"> 
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons\imgs\Eventura.png" alt="Eventura">
+                            <img class="thumbTile__image" src="addons\imgs\projets\Eventura.png" alt="Eventura">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons\imgs\FJS.png" alt="FJS">
+                            <img class="thumbTile__image" src="addons\imgs\projets\FJS.png" alt="FJS">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons\imgs\LMJ.png" alt="JMJ">
+                            <img class="thumbTile__image" src="addons\imgs\projets\LMJ.png" alt="JMJ">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons\imgs\RespireStat.png" alt="RespireStat">
+                            <img class="thumbTile__image" src="addons\imgs\projets\RespireStat.png" alt="RespireStat">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons\imgs\ToolBox.png" alt="ToolBox">
+                            <img class="thumbTile__image" src="addons\imgs\projets\ToolBox.png" alt="ToolBox">
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons\imgs\VR.png" alt="Projet VR">
+                            <img class="thumbTile__image" src="addons\imgs\projets\VR.png" alt="Projet VR">
                         </a>
                     </div>
                 </div>

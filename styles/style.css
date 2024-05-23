@@ -133,10 +133,6 @@ html, body {
 
                     /* Projets */
 
-.headerLogo {
-    width: 120px;
-}
-
 .thumbSection {
     padding-top: 3%;
     color: var(--colorWhite);
