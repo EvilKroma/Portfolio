@@ -164,7 +164,8 @@ html, body {
     left: 10%;
     color: white;
     font-size: 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(85,81,81);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.332) 0%, rgba(255,255,255,0) 100%);
     padding: 10px;
     border-radius: 5px;
 }

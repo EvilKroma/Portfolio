@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 case 'Projet BBV2':
                     customContent = `
                         <h1>${text}</h1>
-                        <img src="${backgroundImage}" alt="${text}" style="width: 100px; height: auto; border-radius: 5px;">
-                        <p>Details about BBV2.</p>
+                        <p>Création d'une bibliothèque en ligne, dans une situation professionnelle.</p>
                     `;
                     break;
                 case 'Projet After Blast':
