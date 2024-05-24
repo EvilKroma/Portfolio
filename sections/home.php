@@ -32,17 +32,17 @@
                 </div>
                 <div class="swiper-slide">
                     <a class="thumbTile" href="#">
-                        <img class="thumbTile__image" src="addons/imgs/projets/Eventura.png" alt="Eventura"  data-background="addons/imgs/projets/Eventura.png">
+                        <img class="thumbTile__image" src="addons/imgs/projets/Eventura.png" alt="Eventura"  data-background="addons/imgs/projets/background/Background_Eventura.png">
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a class="thumbTile" href="#">
-                        <img class="thumbTile__image" src="addons/imgs/projets/FJS.png" alt="FJS"  data-background="addons/imgs/projets/FJS.png">
+                        <img class="thumbTile__image" src="addons/imgs/projets/FJS.png" alt="FJS"  data-background="addons/imgs/projets/background/Background_FJS.png">
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a class="thumbTile" href="#">
-                        <img class="thumbTile__image" src="addons/imgs/projets/LMJ.png" alt="LMJ" data-background="addons/imgs/projets/LMJ.png">
+                        <img class="thumbTile__image" src="addons/imgs/projets/LMJ.png" alt="LMJ" data-background="addons/imgs/projets/background/Background_LMJ.png">
                     </a>
                 </div>
                 <div class="swiper-slide">
