@@ -16,18 +16,51 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>Création d'une bibliothèque en ligne, dans une situation professionnelle.</p>
                     `;
                     break;
+                case 'Projet Eventura':
+                    customContent = `
+                        <h1>${text}</h1>
+                        <p>Application d'organisation d'évènements.</p>
+                        `;
+                    break;
+                case 'Projet FJS':
+                    customContent = `
+                        <h1>${text}</h1>
+                        <p>Site web permettant d'éditer des factures PDF via Javascript.</p>
+                        `;
+                    break;
+                 case 'Projet LMJ':
+                    customContent = `
+                        <h1>${text}</h1>
+                        <p>Création d'une application en React, dans le but d'apprendre ce dernier langage.</p>
+                    `;
+                    break;
+                case 'Projet RespireStat':
+                    customContent = `
+                        <h1>${text}</h1>
+                        <p>Reprise d'un projet de création d'interface de statistiques écologique en Java.</p>
+                        `;
+                    break;
+                case 'Projet ToolBox':
+                    customContent = `
+                        <h1>${text}</h1>
+                        <p>Création de différents mini-outils/jeux.</p>
+                        `;
+                    break;
+                 case 'Projet VR':
+                    customContent = `
+                        <h1>${text}</h1>
+                        <p>Création d'une expérience en VR pour une veille technologique sur la VR.</p>
+                        `;
+                    break;
                 case 'Projet After Blast':
                     customContent = `
                         <h1>${text}</h1>
-                        <img src="${backgroundImage}" alt="${text}" style="width: 100px; height: auto; border-radius: 5px;">
-                        <p>Details about After Blast.</p>
+                        <p>Projet de création d'un jeu vidéo en extraction shooter PvEvP.</p>
                         `;
                     break;
-                // Add cases for other projects
                 default:
                     customContent = `
                         <h1>${text}</h1>
-                        <img src="${backgroundImage}" alt="${text}" style="width: 100px; height: auto; border-radius: 5px;">
                         <p>Some additional description or details about ${text}.</p>
                     `;
             }
@@ -38,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         thumbTile.addEventListener('mouseleave', function() {
             homeSection.style.backgroundImage = 'url("addons/imgs/home_background.JPG")';
-            dynamicContent.innerHTML = '<p>Passez la souris sur une carte pour voir le texte ici.</p>';
+            dynamicContent.innerHTML = '<h3>Dorian Deneuchatel</h3><img src="addons/imgs/logo_portfolio.png" alt="">';
         });
     });
 });

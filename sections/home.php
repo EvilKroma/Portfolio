@@ -38,11 +38,6 @@
                 </div>
                 <div class="swiper-slide">
                     <a class="thumbTile" href="#">
-                        <img class="thumbTile__image" src="addons/imgs/projets/After_Blast.png" alt="After Blast" data-background="addons/imgs/projets/After_Blast.png" data-text="Projet After Blast">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a class="thumbTile" href="#">
                         <img class="thumbTile__image" src="addons/imgs/projets/Eventura.png" alt="Eventura" data-background="addons/imgs/projets/background/Background_Eventura.png" data-text="Projet Eventura">
                     </a>
                 </div>
@@ -71,13 +66,19 @@
                         <img class="thumbTile__image" src="addons/imgs/projets/VR.png" alt="Projet VR" data-background="addons/imgs/projets/VR.png" data-text="Projet VR">
                     </a>
                 </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/After_Blast.png" alt="After Blast" data-background="addons/imgs/projets/After_Blast.png" data-text="Projet After Blast">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Conteneur pour le contenu dynamique -->
     <div id="dynamicContent" class="dynamic-content">
-        <p>Passez la souris sur une carte pour voir le texte ici.</p>
+        <h3>Dorian Deneuchatel</h3>
+        <img src="addons\imgs\logo_portfolio.png" alt="">
     </div>
 
     <script>
