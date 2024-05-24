@@ -131,7 +131,14 @@ html, body {
     height: 100vh;
 }
 
-                    /* Projets */
+
+
+
+
+
+
+               /* Projets */
+/* Projets */
 
 .thumbSection {
     padding-top: 3%;
@@ -146,17 +153,25 @@ html, body {
 }
 
 .thumbTiles.swiper-container {
-    margin-top: 32%; /* Espacement du haut de la page */
+    margin-top: 45vh; /* Espacement du haut de la page */
     padding: 0 4%;
     overflow-x: hidden;
 }
 
 .thumbTile {
     width: 20%;
+    overflow: visible; /* Permet le débordement visible des images */
 }
 
 .thumbTile__image {
+    padding-top: 50%; 
     width: 100%;
     border-radius: var(--tileBorderRadius);
+    transition: transform 0.3s ease, margin-top 0.3s ease, border 0.3s ease; /* Transitions pour un effet fluide */
 }
 
+
+.thumbTile__image:hover {
+    margin-top: -10vh; /* Déplace l'image vers le haut */
+    transform: scale(1.1); /* Augmente légèrement la taille */
+}

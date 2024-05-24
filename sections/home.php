@@ -16,59 +16,57 @@
 
     </div>
     <section class="thumbSection">
-            <div class="thumbTiles swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons/imgs/projets//BBV2.png" alt="BBV2" data-background="addons/imgs/projets//BBV2.png">
-                        </a>
-                    </div> 
-                    <div class="swiper-slide">
-                        <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons/imgs/projets/After_Blast.png" alt="BBV2"  data-background="addons/imgs/projets/After_Blast.png"> 
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons/imgs/projets/Eventura.png" alt="Eventura"  data-background="addons/imgs/projets/Eventura.png">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons/imgs/projets/FJS.png" alt="FJS"  data-background="addons/imgs/projets/FJS.png">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons/imgs/projets/LMJ.png" alt="LMJ" data-background="addons/imgs/projets/LMJ.png">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons/imgs/projets/RespireStat.png" alt="RespireStat"  data-background="addons/imgs/projets/RespireStat.png">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons/imgs/projets/ToolBox.png" alt="ToolBox"  data-background="addons/imgs/projets/ToolBox.png">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a class="thumbTile" href="#">
-                            <img class="thumbTile__image" src="addons/imgs/projets/VR.png" alt="Projet VR"  data-background="addons/imgs/projets/VR.png">
-                        </a>
-                    </div>
+        <div class="thumbTiles swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets//BBV2.png" alt="BBV2" data-background="addons/imgs/projets//BBV2.png">
+                    </a>
+                </div> 
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/After_Blast.png" alt="BBV2"  data-background="addons/imgs/projets/After_Blast.png"> 
+                    </a>
                 </div>
-
-                 <!-- If we need navigation buttons 
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/Eventura.png" alt="Eventura"  data-background="addons/imgs/projets/Eventura.png">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/FJS.png" alt="FJS"  data-background="addons/imgs/projets/FJS.png">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/LMJ.png" alt="LMJ" data-background="addons/imgs/projets/LMJ.png">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/RespireStat.png" alt="RespireStat"  data-background="addons/imgs/projets/RespireStat.png">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/ToolBox.png" alt="ToolBox"  data-background="addons/imgs/projets/ToolBox.png">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/VR.png" alt="Projet VR"  data-background="addons/imgs/projets/VR.png">
+                    </a>
+                </div>
             </div>
-        </section>
-    </main>
 
+             <!-- If we need navigation buttons 
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </div>
+    </section>
     <script>
         var mySwiper = new Swiper('.swiper-container', {
             // Optional parameters
@@ -91,6 +89,6 @@
                     freeMode: false
                 }
             }
-        })
+        });
     </script>
 </section>
