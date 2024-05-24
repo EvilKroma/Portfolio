@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         thumbTile.addEventListener('mouseleave', function() {
             homeSection.style.backgroundImage = 'url("addons/imgs/home_background.JPG")';
-            dynamicContent.innerHTML = '<h3>Dorian Deneuchatel</h3><img src="addons/imgs/logo_portfolio.png" alt="">';
+            dynamicContent.innerHTML = '<img src="addons/imgs/logo_portfolio.png" alt="">';
         });
     });
 });

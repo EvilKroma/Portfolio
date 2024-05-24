@@ -77,7 +77,6 @@
 
     <!-- Conteneur pour le contenu dynamique -->
     <div id="dynamicContent" class="dynamic-content">
-        <h3>Dorian Deneuchatel</h3>
         <img src="addons\imgs\logo_portfolio.png" alt="">
     </div>
 
