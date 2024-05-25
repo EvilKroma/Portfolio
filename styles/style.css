@@ -230,3 +230,32 @@ html, body {
 .plus_d-infos span{
     color: var(--colorOne);
 }
+
+
+            /* Pages projet */
+
+.projet_infos {
+    background-color: var(--colorOne);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.divs-container {
+
+}
+
+.bulles {
+    margin: 8%;
+    padding: 5%;
+    height: 10vh;
+    width: 40%;
+    background-color: var(--colorTwo);
+    border-radius: var(--tileBorderRadius);
+    border: 1px solid white;
+}
+
+.bulles span{ 
+    color: var(--colorWhite);
+    font-size: 1.2rem;
+}

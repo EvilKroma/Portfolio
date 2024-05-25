@@ -27,7 +27,6 @@
             </a>
         </div>
     </div>
-
     <section class="thumbSection">
         <div class="thumbTiles swiper-container">
             <div class="swiper-wrapper">
@@ -37,7 +36,7 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="thumbTile" href="#">
+                    <a class="thumbTile" href="pages_projets\Eventura.php">
                         <img class="thumbTile__image" src="addons/imgs/projets/Eventura.png" alt="Eventura" data-background="addons/imgs/projets/background/Background_Eventura.png" data-text="Projet Eventura">
                     </a>
                 </div>
