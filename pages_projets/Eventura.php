@@ -1,6 +1,6 @@
 <?php require "../header.php" ?>
 <body>
-    <div id="project-container" class="project-container">
+    <div id="project-container" class="project-container eventura"> <!-- Ajoutez une classe spécifique au projet -->
         <div class="project-header">
             <div class="back-link">
                 <a href="../index.php">Retour</a>
@@ -20,7 +20,6 @@
         <a href="#project-container" class="scroll-to-top">
             <ion-icon name="arrow-up-outline"></ion-icon>
         </a>
-
     </div>
 </body>
 </html>

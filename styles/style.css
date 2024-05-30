@@ -262,7 +262,6 @@ html, body {
 .project-header {
     position: relative;
     height: 100vh;
-    background: url('../addons/imgs/projets/background/Background_Eventura.png') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -320,6 +319,10 @@ html, body {
 .scroll-to-top ion-icon {
     font-size: 2.5rem; /* Icon size */
     color: white;
+}
+
+.project-container.eventura .project-header {
+    background: url('../addons/imgs/projets/Eventura/Background_Eventura.png') no-repeat center center/cover;
 }
 
 

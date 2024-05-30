@@ -25,8 +25,8 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="thumbTile" href="pages_projets\Eventura.php">
-                        <img class="thumbTile__image" src="addons/imgs/projets/Eventura/Eventura.png" alt="Eventura" data-background="addons/imgs/projets/background/Background_Eventura.png" data-text="Projet Eventura">
+                    <a class="thumbTile" href="pages_projets/Eventura.php">
+                        <img class="thumbTile__image" src="addons/imgs/projets/Eventura/Eventura.png" alt="Eventura" data-background="addons/imgs/projets/Eventura/Background_Eventura.png" data-text="Projet Eventura">
                     </a>
                 </div>
                 <div class="swiper-slide">
@@ -65,7 +65,7 @@
 
     <!-- Conteneur pour le contenu dynamique -->
     <div id="dynamicContent" class="dynamic-content">
-        <img src="addons\imgs\logo_portfolio.png" alt="">
+        <img src="addons/imgs/logo_portfolio.png" alt="">
     </div>
 
     <script>
