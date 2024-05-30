@@ -78,6 +78,15 @@ html, body {
     background-position: center; /* Centre l'image dans la section */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
 }
+#home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
 
 .buttons_container {
     position: absolute;
@@ -165,8 +174,6 @@ html, body {
     left: 10%;
     color: white;
     font-size: 20px;
-    background: rgb(85,81,81);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.332) 0%, rgba(255,255,255,0) 100%);
     border-radius: 5px;
 }
 
@@ -235,28 +242,49 @@ html, body {
 
             /* Pages projet */
 
-.projet_infos {
-    background-color: var(--colorOne);
+.project-header {
+    position: relative;
     height: 100vh;
-    padding: 0;
+    background: url('../addons/imgs/projets/background/Background_Eventura.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px; /* Added padding to align text to the left */
+    text-align: left;
+}
+.project-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
+.project-header h1, .project-header p {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.project-header h1 {
+    font-size: 3rem;
     margin: 0;
 }
-
-.divs-container {
-
-}
-
-.bulles {
-    margin: 8%;
-    padding: 5%;
-    height: 10vh;
-    width: 40%;
-    background-color: var(--colorTwo);
-    border-radius: var(--tileBorderRadius);
-    border: 1px solid white;
-}
-
-.bulles span{ 
-    color: var(--colorWhite);
+.project-header p {
     font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+.gallery {
+    padding: 20px;
+    background: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.gallery img {
+    width: calc(33% - 20px);
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
