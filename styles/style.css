@@ -247,7 +247,7 @@ html, body {
     font-family: Arial, sans-serif;
 }
 .back-link {
-    position: fixed; /* Fixed position to stay at the top */
+    position: fixed;
     top: 20px;
     left: 20px;
     z-index: 3; /* Higher z-index to ensure it is on top */
@@ -292,8 +292,9 @@ html, body {
     margin: 10px 0 0;
 }
 .gallery {
-    padding: 20px;
-    background: #f0f0f0;
+    padding: 20px;  
+    margin: 0 5% 0 5%;
+    background-color: var(--colorOne);
     display: flex;
     flex-direction: column; /* Changed to column */
     gap: 20px; /* Added gap between images */
@@ -304,69 +305,22 @@ html, body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 100;
-    width: 60px; /* Set the width */
-    height: 60px; /* Set the height */
+    width: 50px; /* Set the width */
+    height: 50px; /* Set the height */
     background-color: rgba(0, 0, 0, 0.5); /* Dark grey transparent background */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid white;
 }
 .scroll-to-top ion-icon {
-    font-size: 2.5rem; /* Icon size */
+    font-size: 2rem; /* Icon size */
     color: white;
 }
-
-
-                                            /* Footer */
-
-.footer {
-    background-color: #181818; /* Slightly lighter dark background for the footer */
-    padding: 40px 20px;
-    text-align: center;
-    color: white; /* White text for contrast */
-}
-.footer-logo img {
-    width: 50px; /* Adjust the size as needed */
-    margin-bottom: 20px;
-}
-.footer-nav {
-    margin: 20px 0;
-}
-.footer-nav a {
-    margin: 0 15px;
-    color: #aaa; /* Light gray color for the links */
-    text-decoration: none;
-    font-weight: bold;
-}
-.footer-nav a:hover {
-    color: #fff; /* White color on hover */
-}
-.footer-social {
-    margin: 20px 0;
-}
-.footer-social a {
-    margin: 0 10px;
-    color: #aaa; /* Light gray color for the icons */
-    font-size: 1.5rem;
-}
-.footer-social a:hover {
-    color: #fff; /* White color on hover */
-}
-.footer-bottom {
-    margin-top: 20px;
-    font-size: 0.8rem;
-    color: #666; /* Dark gray color for the bottom text */
-}
-.footer-bottom a {
-    color: #666; /* Dark gray color for the imprint link */
-    text-decoration: none;
-}
-.footer-bottom a:hover {
-    color: #fff; /* White color on hover */
-}                                            

@@ -1,10 +1,10 @@
 <?php require "../header.php" ?>
 <body>
     <div id="project-container" class="project-container">
+        <div class="back-link">
+            <a href="../index.php">Retour</a>
+        </div>
         <div class="project-header">
-            <div class="back-link">
-                <a href="../index.php">Retour</a>
-            </div>
             <p>Avril 2024</p>
             <h1>Eventura</h1>
             <p>Application d'organisation d'évènements, transportant différents outils pour faciliter la vie des plus fêtards !</p>
