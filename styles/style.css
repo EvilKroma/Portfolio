@@ -81,10 +81,11 @@ html, body {
 
 .buttons_container {
     position: absolute;
-    bottom: 40%; /* Position par rapport au bas */
+    bottom: 60%; /* Position par rapport au bas */
     left: 15%; /* Espacement depuis la gauche de la page, ajustez selon l'épaisseur de votre sidebar */
     display: flex;
     gap: 10px; /* Espace entre les boutons */
+    z-index: 1000;
 }
 
 .button a {

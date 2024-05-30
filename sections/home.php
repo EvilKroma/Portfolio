@@ -81,7 +81,7 @@
 
     <script>
         var mySwiper = new Swiper('.swiper-container', {
-            spaceBetween: 5,
+            spaceBetween: 5,    
             slidesPerView: 2,
             loop: false,
             freeMode: true,
