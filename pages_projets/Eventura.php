@@ -7,7 +7,7 @@
         <div class="project-header">
             <p>Avril 2024</p>
             <h1>Eventura</h1>
-            <p>Application d'organisation d'évènements, transportant différents outils pour faciliter la vie des plus fêtards !</p>
+            <p>Website for Caroline Seiffert — a visual artist whose skill-on photographs are still life compositions of found everyday objects and all their surroundings. They arise from a natural flow of intuition and an open-hearted view.</p>
         </div>
         <div class="gallery">
             <img src="../addons/imgs/projets/Eventura/G1.png" alt="Project Image 1">
