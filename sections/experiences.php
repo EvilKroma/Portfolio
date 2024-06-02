@@ -8,7 +8,7 @@
                 <p class="exp-desc" >Stage de fin de première année de BTS SIO. <br><br> Du 06 mai au 26 juin.</p>
                 <br>
                 <div class="button">
-                    <a href="" class="plus_d-infos">
+                    <a href="pages_experiences/EasyVista.php" class="plus_d-infos">
                         <span>Plus d'informations</span>
                     </a>
                 </div>
