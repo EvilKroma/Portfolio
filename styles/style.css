@@ -152,7 +152,9 @@ html, body {
     height: 100vh;
 }
 
-/* Projets */.thumbSection {
+/* Projets */
+
+.thumbSection {
     padding-top: 3%;
     color: var(--colorWhite);
 }
@@ -337,9 +339,7 @@ html, body {
     color: white;
 }
 
-.project-container.eventura .project-header {
-    background: url('../addons/imgs/projets/Eventura/Background_Eventura.png') no-repeat center center/cover;
-}
+
 
 
                                             /* Footer */

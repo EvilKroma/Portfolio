@@ -20,7 +20,7 @@
         <div class="thumbTiles swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a class="thumbTile" href="#">
+                    <a class="thumbTile" href="pages_projets/ASF.php">
                         <img class="thumbTile__image" src="addons/imgs/projets//BBV2/BBV2.png" alt="BBV2" data-background="addons/imgs/projets/BBV2/BBV2.png" data-text="Projet BBV2">
                     </a>
                 </div>

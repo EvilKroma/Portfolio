@@ -1,7 +1,7 @@
 <?php require "../header.php" ?>
 <body>
     <div id="project-container" class="project-container eventura"> <!-- Ajoutez une classe spécifique au projet -->
-        <div class="project-header">
+    <div class="project-header" style="background: url('../addons/imgs/projets/Eventura/Background_Eventura.png') no-repeat center center/cover;">
             <div class="back-link">
                 <a href="../index.php">Retour</a>
             </div>
