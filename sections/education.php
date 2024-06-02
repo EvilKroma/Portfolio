@@ -1,5 +1,5 @@
 <section id="education">
-    
+<h3 class="section_titre">Mon parcours</h3>
 <style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
 
 <section class="design-section">

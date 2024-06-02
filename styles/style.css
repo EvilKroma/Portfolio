@@ -208,7 +208,7 @@ html, body {
 
 
                                     /* Styles pour expériences */
-.titre_exp {
+.section_titre {
     font-size: 2.5rem;
     color: var(--colorWhite);
     text-align: center;
