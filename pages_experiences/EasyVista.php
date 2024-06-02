@@ -1,13 +1,13 @@
 <?php require "../header.php" ?>
 <body>
     <div id="project-container" class="project-container eventura"> <!-- Ajoutez une classe spécifique au projet -->
-    <div class="project-header" style="background: url('../addons/imgs/projets/BBV2/home.png') no-repeat center center/cover;">
+    <div class="project-header" style="background: url('header.webp') no-repeat center center/cover;">
             <div class="back-link">
                 <a href="../index.php">Retour</a>
             </div>
             <p>06 mai - 26 juin 2024</p>
             <h1>Stage chez EasyVista</h1>
-            <p>Refonte du projet BBV1 pour une intégration en milieu professionnel!</p>
+            <p>Stage de validation de fin de 1e années de BTS SIO en tant que développeur web junior.</p>
         </div>
         <div class="gallery">
             <img src="../addons/imgs/projets/BBV2/livre.png" alt="Project Image 1">
