@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../addons/fonts/BebasNeue.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphique W01 Regular';
+    src: url('../addons/fonts/Graphique\ W01\ Regular.ttf') format('truetype');
+}
+
+
 :root {
     --colorOne: #141414;
     --colorTwo: #5c5c5c;
@@ -5,7 +16,8 @@
 
     --tileBorderRadius: 4px;
 
-    --fontOne: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --fontOne: 'Graphique W01 Regular', sans-serif;
+    --fontTwo: 'Bebas Neue', sans-serif;
 }
 
 * {
@@ -20,7 +32,7 @@ html, body {
     height: 100%; 
     width: 100%; 
     scroll-behavior: smooth;
-    font-family: var(--fontOne);
+    font-family: var(--fontTwo);
     background-color: var(--colorOne);
 }
 
@@ -90,8 +102,8 @@ html, body {
 
 .buttons_container {
     position: absolute;
-    bottom: 60%; /* Position par rapport au bas */
-    left: 15%; /* Espacement depuis la gauche de la page, ajustez selon l'épaisseur de votre sidebar */
+    bottom: 65%; /* Position par rapport au bas */
+    left: 10%; /* Espacement depuis la gauche de la page, ajustez selon l'épaisseur de votre sidebar */
     display: flex;
     gap: 10px; /* Espace entre les boutons */
     z-index: 1000;
@@ -187,14 +199,19 @@ html, body {
 }
 
 .dynamic-content p {
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 
 
 
                                     /* Styles pour expériences */
-
+.titre_exp {
+    font-size: 2.5rem;
+    color: var(--colorWhite);
+    text-align: center;
+    margin-top: 5%;
+}
 .experiences {
     color: white;
     display: flex;
@@ -244,7 +261,6 @@ html, body {
 
 .project-container {
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 .back-link {
     position: fixed; /* Fixed position to stay at the top */
@@ -327,49 +343,3 @@ html, body {
 
 
                                             /* Footer */
-
-.footer {
-    background-color: #181818; /* Slightly lighter dark background for the footer */
-    padding: 40px 20px;
-    text-align: center;
-    color: white; /* White text for contrast */
-}
-.footer-logo img {
-    width: 50px; /* Adjust the size as needed */
-    margin-bottom: 20px;
-}
-.footer-nav {
-    margin: 20px 0;
-}
-.footer-nav a {
-    margin: 0 15px;
-    color: #aaa; /* Light gray color for the links */
-    text-decoration: none;
-    font-weight: bold;
-}
-.footer-nav a:hover {
-    color: #fff; /* White color on hover */
-}
-.footer-social {
-    margin: 20px 0;
-}
-.footer-social a {
-    margin: 0 10px;
-    color: #aaa; /* Light gray color for the icons */
-    font-size: 1.5rem;
-}
-.footer-social a:hover {
-    color: #fff; /* White color on hover */
-}
-.footer-bottom {
-    margin-top: 20px;
-    font-size: 0.8rem;
-    color: #666; /* Dark gray color for the bottom text */
-}
-.footer-bottom a {
-    color: #666; /* Dark gray color for the imprint link */
-    text-decoration: none;
-}
-.footer-bottom a:hover {
-    color: #fff; /* White color on hover */
-}                                            

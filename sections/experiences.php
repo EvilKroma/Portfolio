@@ -1,3 +1,4 @@
+<h3 class="titre_exp">Mes expériences</h3>
 <section id="experiences" class="experiences">
         <div class="exp-container">
             <div class="exp-text">
