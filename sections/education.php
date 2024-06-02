@@ -13,13 +13,13 @@
 
             <div class="timeline-component timeline-content">
                 <h3>Ecole IPSSI</h3>
-            <p>Marne-la-Vallée</p>
+            <p>Marne-la-Vallée | 2023 - 2025</p>
             </div>
 
 
             <div class="timeline-component timeline-content">
                 <h3>Lycée Blaise Pascal</h3>
-                <p>Brie-comte-Robert</p>
+                <p>Brie-comte-Robert | 2020 - 2023</p>
             </div>
 
 
