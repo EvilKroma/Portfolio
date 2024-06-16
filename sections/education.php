@@ -13,7 +13,8 @@
 
             <div class="timeline-component timeline-content">
                 <h3>Ecole IPSSI</h3>
-            <p>Marne-la-Vallée | 2023 - 2025</p>
+                <p>BTS SIO option SLAM</p>
+                <p>Marne-la-Vallée | 2023 - 2025</p>
             </div>
 
 
