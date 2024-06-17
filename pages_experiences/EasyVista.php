@@ -9,7 +9,9 @@
             <h1>Stage chez EasyVista</h1>
             <p>Stage de fin de 1e année de BTS SIO en tant que développeur web junior.</p>
             <br><br><br> <br><br><br> <br>
+            <p>EasyVista est leader français dans l'ITSM, créant des expériences numériques qui aident les organisations à travailler plus rapidement, intelligement et automatiquement.</p>
             <p>Durant ce stage, ma mission était de sécuriser les produits digitaux de l'entreprise, nommés EVSM, et EVSA. Ceci s'est fait via l'ajout d'une CSP permettant de réguler l'exécution des scripts et styles en leur fournissant un hash ou nonce.</p>
+            <p>Compétences acquises / renforcées : PHP, JavaScript, CyberSécurité (CSP).</p>
         </div>
         <div class="gallery">
             <img src="../addons/imgs/projets/BBV2/livre.png" alt="Project Image 1">

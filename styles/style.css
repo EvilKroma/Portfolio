@@ -152,7 +152,7 @@ html, body {
     height: 100vh;
 }
 
-/* Projets */
+                                            /* Projets */
 
 .thumbSection {
     padding-top: 3%;
@@ -410,4 +410,37 @@ html, body {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 60%;
+    margin: auto;
+    }
+    .skill {
+        text-align: center;
+    }
+    .skill img {
+        width: 20vh;
+        height: auto;
+        margin: 20%;
+    }
+    .skill h3 {
+        margin-top: 10px;
+    }
+    @media (max-width: 900px) {
+        .skills {
+            grid-template-columns: repeat(2, 1fr);
+            max-width: 80%;
+        }
+    }
+    @media (max-width: 600px) {
+        .skills {
+            grid-template-columns: 1fr;
+            max-width: 100%;
+        }
+        .skill img {
+            margin: 0 auto;
+        }
+    }
 }                                            
