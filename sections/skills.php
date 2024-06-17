@@ -1,4 +1,5 @@
-<?php require "../header.php" ?>
+<?php require "header.php" ?>
+<h3 id="skills" class="section_titre">Mes compétences</h3>
 <section class="skills">
     <div class="skill">
         <img src="addons/imgs/skills/HTML.png" alt="HTML">
