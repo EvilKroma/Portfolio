@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 <h3 id="skills" class="section_titre">Mes compétences</h3>
-<section class="skills">
+<section id="skills" class="skills_container">
     <div class="skill">
         <img src="addons/imgs/skills/HTML.png" alt="HTML">
         <h3 class="skill_name">HTML</h3>

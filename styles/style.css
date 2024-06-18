@@ -75,7 +75,6 @@ html, body {
 
 /* Styles pour home */
 #home {
-    height: 100vh;
     background-image: url("../addons/imgs/home_background.JPG");
     background-size: cover;
     background-position: center;
@@ -139,7 +138,7 @@ html, body {
     margin-left: 10px;
 }
 
-#projects, #experiences, #education, #contact {
+#home, #experience, #education, #contact {
     height: 100vh;
 }
 
@@ -273,7 +272,6 @@ html, body {
 
 .project-header {
     position: relative;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -348,7 +346,6 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: var(--colorOne);
-    min-height: 100vh;
     padding: 100px 0;
 }
 
@@ -412,7 +409,7 @@ html, body {
 }
 
 /* Skills */
-.skills {
+.skills_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
@@ -446,6 +443,7 @@ html, body {
     #sidebar {
         opacity: 0;
     }
+    
     .experiences {
         padding: 0;
     }
@@ -453,18 +451,44 @@ html, body {
     .exp-text {
         width: 100%;
     }
-    .skills {
+    .skills_container {
         grid-template-columns: repeat(2, 1fr);
         max-width: 80%;
     }
 }
 
-@media (max-width: 600px) {
-    .skills {
-        grid-template-columns: 1fr;
-        max-width: 100%;
-    }
-    .skill img {
-        margin: 0 auto;
-    }
+ /* Contacte */
+
+ #contact {
+    text-align: center; /* Centrer le titre */
 }
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les éléments de la liste horizontalement */
+    padding-top: 10vh; 
+}
+.contact-list li {
+    margin: 10px 0;
+}
+.contact-list a {
+    text-decoration: none;
+    color: var(--colorWhite); /* Couleur pour LinkedIn */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.contact-list img {
+    width: 8vh;
+    height: auto;
+    margin-right: 10px; /* Ajoute un espace entre l'image et le texte */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
+}
+
+/* Pas besoin de filtres spécifiques pour chaque icône si elles doivent toutes être blanches */
+
+
+

@@ -3,7 +3,7 @@
     <div id="project-container" class="project-container eventura"> <!-- Ajoutez une classe spécifique au projet -->
         <div class="project-header" style="background: url('header.webp') no-repeat center center/cover;">
             <div class="back-link">
-                <a href="../index.php">Retour</a>
+                <a href="../index.php#exp">Retour</a>
             </div>
             <p>06 mai - 26 juin 2024</p>
             <h1>Stage chez EasyVista</h1>
