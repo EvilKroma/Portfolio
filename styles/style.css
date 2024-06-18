@@ -421,13 +421,14 @@ html, body {
 }
 
 .skill {
+    width: auto;
     border: 2px solid white;
     border-radius: 30px;
     text-align: center;
 }
 
 .skill img {
-    width: 20vh;
+    width: 15vh;
     height: auto;
     margin: 10%;
 }
