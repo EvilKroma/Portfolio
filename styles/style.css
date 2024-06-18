@@ -138,7 +138,7 @@ html, body {
     margin-left: 10px;
 }
 
-#home, #experience, #education, #contact {
+#home, #projet, #experience, #education, #contact {
     height: 100vh;
 }
 
@@ -277,6 +277,7 @@ html, body {
     justify-content: center;
     padding-left: 20px;
     text-align: left;
+    height: 100vh;
 }
 
 .project-header::before {
