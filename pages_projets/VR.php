@@ -1,0 +1,25 @@
+<?php require "../header.php" ?>
+<body>
+    <div id="project-container" class="project-container eventura"> <!-- Ajoutez une classe spécifique au projet -->
+    <div class="project-header" style="background: url('../addons/imgs/projets/Eventura/Background_Eventura.png') no-repeat center center/cover;">
+            <div class="back-link">
+                <a href="../index.php">Retour</a>
+            </div>
+            <p>Mai 2024</p>
+            <h1>Veille technologique sur la Réalité Virtuelle</h1>
+            <p>Création d'une expérience </p>
+        </div>
+        <div class="gallery">
+            <img src="../addons/imgs/projets/Eventura/G1.png" alt="Project Image 1">
+            <img src="../addons/imgs/projets/Eventura/G2.png" alt="Project Image 2">
+            <img src="../addons/imgs/projets/Eventura/G3.png" alt="Project Image 3">
+            <img src="../addons/imgs/projets/Eventura/G1.png" alt="Project Image 4">
+            <img src="../addons/imgs/projets/Eventura/G2.png" alt="Project Image 5">
+            <img src="../addons/imgs/projets/Eventura/G3.png" alt="Project Image 6">
+        </div>
+        <a href="#project-container" class="scroll-to-top">
+            <ion-icon name="arrow-up-outline"></ion-icon>
+        </a>
+    </div>
+</body>
+</html>
