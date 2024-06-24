@@ -10,13 +10,14 @@
                 <div class="timeline-circle"></div>
             </div>
 
-
-            <div class="timeline-component timeline-content">
-                <h3>Ecole IPSSI</h3>
-                <p>BTS SIO option SLAM</p>
-                <p>Marne-la-Vallée | 2023 - 2025</p>
-            </div>
-
+            <a href="./pages_education/IPSSI.php" class="ipssi_parcours">
+                <div class="timeline-component timeline-content">
+                    <h3>Ecole IPSSI</h3>
+                    <p>BTS SIO option SLAM</p>
+                    <p>Marne-la-Vallée | 2023 - 2025</p>
+                </div>
+            </a>
+            
 
             <div class="timeline-component timeline-content">
                 <h3>Lycée Blaise Pascal</h3>
