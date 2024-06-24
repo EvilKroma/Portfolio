@@ -33,7 +33,11 @@ html, body {
     background-color: var(--colorOne);
 }
 
-/* Styles pour la nav */
+
+
+
+
+                                        /* Styles pour la nav */
 #sidebar {
     position: fixed;
     top: 0;
@@ -73,7 +77,11 @@ html, body {
     height: 40px; 
 }
 
-/* Styles pour home */
+
+
+
+
+                                        /* Styles pour home */
 #home {
     background-image: url("../addons/imgs/home_background.JPG");
     background-size: cover;
@@ -142,7 +150,11 @@ html, body {
     height: 100vh;
 }
 
-/* Projets */
+
+
+
+
+                                        /* Projets */
 .thumbSection {
     padding-top: 3%;
     color: var(--colorWhite);
@@ -193,7 +205,11 @@ html, body {
     font-size: 2rem;
 }
 
-/* Styles pour expériences */
+
+
+
+
+                                        /* Styles pour expériences */
 .section_titre {
     font-size: 2.5rem;
     color: var(--colorWhite);
@@ -250,7 +266,11 @@ html, body {
     color: var(--colorOne);
 }
 
-/* Pages projet */
+
+
+
+
+                                        /* Pages projet */
 .project-container {
     margin: 0;
 }
@@ -340,7 +360,11 @@ html, body {
     color: white;
 }
 
-/* Formation */
+
+
+
+
+                                        /* Formation */
 .design-section {
     display: flex;
     flex-direction: column;
@@ -409,7 +433,11 @@ html, body {
     }
 }
 
-/* Skills */
+
+
+
+
+                                        /* Skills */
 .skills_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -458,7 +486,11 @@ html, body {
     }
 }
 
- /* Contacte */
+
+
+
+
+                                        /* Contacte */
 
  #contact {
     text-align: center; /* Centrer le titre */
