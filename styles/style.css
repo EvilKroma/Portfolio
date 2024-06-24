@@ -433,10 +433,46 @@ html, body {
     }
 }
 
-.page_desc {
-    font-size: 1.5rem;
+.ipssi_parcours {
+    text-decoration: none;
 }
 
+#SLAMvsSISR {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.content.reverse {
+    flex-direction: row-reverse;
+}
+.page_desc {
+    flex: 1;
+    margin: 20px;
+    font-size: 1.2em; /* Augmenter la taille du texte */
+}
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.centered-title {
+    text-align: center;
+    width: 100%;
+    font-size: 2em; /* Augmenter la taille du titre */
+    margin: 20px 0;
+}
 
 
 
@@ -524,6 +560,8 @@ html, body {
     margin-right: 10px; /* Ajoute un espace entre l'image et le texte */
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
 }
+
+
 
 /* Pas besoin de filtres spécifiques pour chaque icône si elles doivent toutes être blanches */
 
