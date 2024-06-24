@@ -10,7 +10,7 @@
         </div>
 
         <div class="button">
-            <a href="addons/imgs/CV_Dorian_Deneuchatel.pdf" class="cv" download="CV_Dorian_Deneuchatel.pdf">
+            <a href="addons/imgs/CV_Dorian_IPSSI.pdf" class="cv" download="CV_Dorian_IPSSI.pdf">
                 <img src="addons/imgs/icones/CV.svg" alt="CV">
                 <span>CV</span>
             </a>

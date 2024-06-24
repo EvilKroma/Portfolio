@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="../styles/style.css">
 
-    <script src="scripts/script.js"></script>
-    <script src="../scripts/script.js"></script>
+    <script src="scripts/hoverPicture.js"></script>
+    <script src="../scripts/hoverPicture.js"></script>
     
     <title>Netflix Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">

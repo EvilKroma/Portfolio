@@ -14,6 +14,7 @@
             <img src="../addons/imgs/projets/BBV2/membre.png" alt="Project Image 2">
             <img src="../addons/imgs/projets/BBV2/admin1.png" alt="Project Image 3">
             <img src="../addons/imgs/projets/BBV2/admin2.png" alt="Project Image 4">
+            <p>Vous pouvez retrouver le projet <a href=https://lasf.ipssi-sio.fr/index.php target=blank>ici</a></p>
         </div>
         <a href="#project-container" class="scroll-to-top">
             <ion-icon name="arrow-up-outline"></ion-icon>
