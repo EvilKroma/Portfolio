@@ -361,9 +361,6 @@ html, body {
 }
 
 
-
-
-
                                         /* Formation */
 .design-section {
     display: flex;
@@ -474,6 +471,25 @@ img {
     margin: 20px 0;
 }
 
+.fiche_synt_button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: var(--colorTwo);
+    text-decoration: none;
+    color: var(--colorWhite);
+}
+
+.fiche_synthese {
+    text-decoration: none;
+    color: var(--colorWhite);
+}
 
 
 

@@ -35,6 +35,11 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
+                    <a class="thumbTile" href="pages_projets/VR.php">
+                        <img class="thumbTile__image" src="addons/imgs/projets/VR/VR.png" alt="Projet VR" data-background="addons/imgs/projets/VR/background.png" data-text="Projet VR">
+                    </a>
+                </div>
+                <div class="swiper-slide">
                     <a class="thumbTile" href="#">
                         <img class="thumbTile__image" src="addons/imgs/projets/LMJ/LMJ.png" alt="LMJ" data-background="addons/imgs/projets/LMJ/Background_LMJ.png" data-text="Projet LMJ">
                     </a>
@@ -47,11 +52,6 @@
                 <div class="swiper-slide">
                     <a class="thumbTile" href="#">
                         <img class="thumbTile__image" src="addons/imgs/projets/ToolBox/ToolBox.png" alt="ToolBox" data-background="addons/imgs/projets/ToolBox/ToolBox.png" data-text="Projet ToolBox">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a class="thumbTile" href="#">
-                        <img class="thumbTile__image" src="addons/imgs/projets/VR/VR.png" alt="Projet VR" data-background="addons/imgs/projets/VR/VR.png" data-text="Projet VR">
                     </a>
                 </div>
                 <div class="swiper-slide">
