@@ -10,12 +10,18 @@
             <p>Application d'organisation d'évènements, transportant différents outils pour faciliter la vie des plus fêtards !</p>
         </div>
         <div class="gallery">
+            <hr>
+            <h1 class="titre_gallerie" >Page de connexion / inscription</h1>
+            <hr>
             <img src="../addons/imgs/projets/Eventura/G1.png" alt="Project Image 1">
+            <hr>
+            <h1 class="titre_gallerie" >Page principale / détails</h1>
+            <hr>
             <img src="../addons/imgs/projets/Eventura/G2.png" alt="Project Image 2">
+            <hr>
+            <h1 class="titre_gallerie" >Les outils intégrés</h1>
+            <hr>
             <img src="../addons/imgs/projets/Eventura/G3.png" alt="Project Image 3">
-            <img src="../addons/imgs/projets/Eventura/G1.png" alt="Project Image 4">
-            <img src="../addons/imgs/projets/Eventura/G2.png" alt="Project Image 5">
-            <img src="../addons/imgs/projets/Eventura/G3.png" alt="Project Image 6">
         </div>
         <a href="#project-container" class="scroll-to-top">
             <ion-icon name="arrow-up-outline"></ion-icon>

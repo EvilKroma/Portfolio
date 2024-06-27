@@ -11,7 +11,8 @@
     </div>
     <div class="gallery">
         <div class="content">
-            <p class="page_desc">EasyVista est leader français dans l'ITSM, créant des expériences numériques qui aident les organisations à travailler plus rapidement, intelligemment et automatiquement.</p>
+            <p class="page_desc">EasyVista est leader français dans l'ITSM, créant des applciations qui aident les organisations à travailler plus rapidement, intelligemment et automatiquement, contant environ 500 employés à travers le monde. L’ITSM pour Information Technology Service Management, se traduit par  l'ensemble des processus et activités de conception, de création, de prestation et de support des services informatiques.
+            </p>
             <div class="image-container">
                 <img src="..\addons\imgs\experiences\img1.webp" alt="Project Image 1">
             </div>
@@ -29,6 +30,32 @@
         <hr>
 
         <div class="content">
+            <p class="page_desc">Schéma explicatif du fonctionnement de la Content Security Policy. Agissant comme "agent de douane" entre le client et le serveur. Il dispose d'un "numéro d'identification" que tout les scripts / styles doivent disposer pour être validés.
+            </p>
+            <div class="image-container">
+                <img src="..\addons\imgs\experiences\schéma_CSP.png" alt="Project Image 1">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="content reverse">
+            <div class="image-container">
+                <img src="..\addons\imgs\experiences\getNonce.png" alt="Project Image 1">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="content reverse">
+            <div class="image-container">
+                <img src="..\addons\imgs\experiences\addNonce.png" alt="Project Image 1">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="content reverse">
             <p class="page_desc">Compétences acquises / renforcées : 
                 <br><br>PHP
                 <br><br>JavaScript
@@ -41,7 +68,6 @@
 
         <hr>
     </div>
-        <hr>
     </div>
         <a href="#project-container" class="scroll-to-top">
             <ion-icon name="arrow-up-outline"></ion-icon>
@@ -49,4 +75,3 @@
     </div>
 </body>
 </html>
-

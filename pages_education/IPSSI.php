@@ -11,7 +11,7 @@
         </div>
         <div class="gallery">
             <hr>
-            <h1 id="SLAMvsSISR" > BTS SIO option SLAM</h1>
+            <h1 class="titre_gallerie" > BTS SIO option SLAM</h1>
             <hr>
             <div class="content">
                 <p class="page_desc">Le BTS SIO option SLAM est une formation de deux ans centrée sur les technologies informatiques appliquées aux besoins des organisations. Les étudiants y acquièrent des compétences avancées en développement logiciel, incluant la programmation, la conception d'applications, et la gestion de bases de données. Ils sont également formés à la gestion de projets informatiques, apprenant à planifier, organiser et superviser des initiatives technologiques au sein d'entreprises variées.</p>
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <hr>
-            <h1 id="SLAMvsSISR" >SLAM ou SISR ?</h1>
+            <h1 class="titre_gallerie" >SLAM ou SISR ?</h1>
             <hr>
             <div class="content reverse">
                 <p class="page_desc">Le BTS SIO (Services Informatiques aux Organisations) propose deux options principales : 
@@ -36,7 +36,7 @@
             </div>
             <hr>
             <div class="fiche_synt_button">
-                <a href="../addons/downloads/BTS_SIO_Tableau_de_synthese_Epreuve_E4.xlsx" class="fiche_synthese" download="BTS_SIO_Tableau_de_synthese_Epreuve_E4.xlsx">
+                <a href="../addons/downloads/BTS_SIO_Tableau_de_synthese_Epreuve_E4.pdf" class="fiche_synthese" download="BTS_SIO_Tableau_de_synthese_Epreuve_E4.pdf">
                     <span>Fiche de synthèse</span>
                 </a>
             </div>
