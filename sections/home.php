@@ -54,11 +54,6 @@
                         <img class="thumbTile__image" src="addons/imgs/projets/ToolBox/ToolBox.png" alt="ToolBox" data-background="addons/imgs/projets/ToolBox/ToolBox.png" data-text="Projet ToolBox">
                     </a>
                 </div>
-                <div class="swiper-slide">
-                    <a class="thumbTile" href="#">
-                        <img class="thumbTile__image" src="addons/imgs/projets/After_Blast/After_Blast.png" alt="After Blast" data-background="addons/imgs/projets/After_Blast/After_Blast.png" data-text="Projet After Blast">
-                    </a>
-                </div>
             </div>
         </div>
     </section>
