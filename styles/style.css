@@ -126,10 +126,19 @@ html, body {
     color: black;
 }
 
+.button:hover  {
+    transform: scale(1.1);
+}
+
 .button a.cv {
     width: 15vh;
     background-color: rgba(24, 24, 24, 0.582);
     color: white;
+}
+
+.button a.cv:hover {
+
+    background-color: rgba(2, 2, 2, 0.58);
 }
 
 .button a.cv img {
