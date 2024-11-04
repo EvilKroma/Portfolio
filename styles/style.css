@@ -184,6 +184,15 @@ html, body {
     overflow: visible;
 }
 
+.thumbTile {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+.thumbTile:nth-child(1) { animation-delay: 0.1s; }
+
+
 .thumbTile__image {
     padding-top: 50%;
     width: 100%;
