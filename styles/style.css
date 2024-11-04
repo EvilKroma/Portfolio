@@ -1,11 +1,6 @@
 @font-face {
-    font-family: 'Bebas Neue';
-    src: url('../addons/fonts/BebasNeue.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Graphique W01 Regular';
-    src: url('../addons/fonts/Graphique\ W01\ Regular.ttf') format('truetype');
+    font-family: 'Poppins'; /* Utilise 'Poppins' pour rester cohérent avec --fontOne */
+    src: url('../addons/fonts/Poppins-Medium.ttf'); /* Chemin du fichier .ttf */
 }
 
 :root {
@@ -13,31 +8,29 @@
     --colorTwo: #5c5c5c;
     --colorWhite: #e5e5e5;
     --tileBorderRadius: 4px;
-    --fontOne: 'Graphique W01 Regular', sans-serif;
-    --fontTwo: 'Bebas Neue', sans-serif;
+    --fontOne: 'Poppins', sans-serif; /* Utilisation cohérente de 'Poppins' */
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--fontOne); /* Utilise la police définie */
 }
+
 
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%; 
-    width: 100%; 
+    height: 100%;
+    width: 100%;
     scroll-behavior: smooth;
-    font-family: var(--fontTwo);
     background-color: var(--colorOne);
 }
 
 
 
-
-
-                                        /* Styles pour la nav */
+/* Styles pour la nav */
 #sidebar {
     position: fixed;
     top: 0;
@@ -159,8 +152,18 @@ html, body {
     height: 100vh;
 }
 
+#mes_infos {
+    padding: 3.5vh;
+    height: auto;
+    width: 60vh;
+    backdrop-filter: blur(2px);
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
 
-
+#span_mes_infos {
+    font-font: var(--fontOne);
+}
 
 
                                         /* Projets */
@@ -173,6 +176,7 @@ html, body {
     margin-top: 45vh;
     padding: 0 4%;
     overflow-x: hidden;
+
 }
 
 .thumbTile {
@@ -198,7 +202,9 @@ html, body {
     left: 10%;
     color: white;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    padding: 20px;
 }
 
 .dynamic-content h1 {

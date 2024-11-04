@@ -60,7 +60,13 @@
 
     <!-- Conteneur pour le contenu dynamique -->
     <div id="dynamicContent" class="dynamic-content">
-        <img src="addons/imgs/logo_portfolio.png" alt="">
+        <div id="mes_infos">
+            <span id="span_mes_infos">
+                Salut ! <br> Je m'appelle Dorian, je suis dévelopeur junior & étudiant en alternance en BTS SIO.
+                Je suis motivé par l’apprentissage de nouvelles technologies et l’amélioration continue de mes compétences.
+                Persévérant et curieux, je m’investis pleinement dans chaque projet pour approfondir mon expertise en développement. Avec pour ambition de poursuivre mes études en ingénierie
+            </span>
+        </div>
     </div>
 
     <script>
