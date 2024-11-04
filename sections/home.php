@@ -3,7 +3,7 @@
 <section id="home">
     <div class="buttons_container">
         <div class="button">
-            <a href="" class="play">
+            <a href="addons/downloads/Tableau_de_synthese.pdf" class="play" download="Tableau de synthese BTS SIO">
                 <img src="addons/imgs/icones/play.svg" alt="Play">
                 <span>Play</span>
             </a>
