@@ -35,11 +35,6 @@
                 </div>
             </div>
             <hr>
-            <div class="fiche_synt_button">
-                <a href="../addons/downloads/BTS_SIO_Tableau_de_synthese_Epreuve_E4.pdf" class="fiche_synthese" download="BTS_SIO_Tableau_de_synthese_Epreuve_E4.pdf">
-                    <span>Fiche de synthèse</span>
-                </a>
-            </div>
         </div>
         <hr>
     </div>

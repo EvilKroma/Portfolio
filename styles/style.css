@@ -447,6 +447,11 @@ html, body {
 
 .ipssi_parcours {
     text-decoration: none;
+
+}
+
+.timeline-component timeline-content:hover {
+    transform: scale(1.1)   ;
 }
 
 .titre_gallerie {
