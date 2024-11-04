@@ -148,7 +148,7 @@ html, body {
     margin-left: 10px;
 }
 
-#home, #projet, #experience, #education, #contact {
+#home, #projet, #experience, #education,#skills, #contact {
     height: 100vh;
 }
 
@@ -513,56 +513,76 @@ img {
 
 
 
-                                        /* Skills */
-.skills_container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    max-width: 40%;
-    margin: auto;
-}
+                                        /* Skills */}
 
-.skill {
-    width: 25vh;
-    border: 2px solid white;
-    border-radius: 30px;
+.skills-section {
     text-align: center;
 }
 
-.skill img {
-    width: 15vh;
-    height: auto;
-    margin: 10%;
+.skills-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
 }
 
-.skill_name {
-    color: var(--colorWhite);
-    font-size: 2.5rem;
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 10vh;
 }
 
-#JS {
-    border-radius: 25px;
+.skill-card {
+    background: linear-gradient(135deg, #3a3a3a, #232323);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-@media (max-width: 900px) {
-    #sidebar {
-        opacity: 0;
-    }
-    
-    .experiences {
-        padding: 0;
-    }
-
-    .exp-text {
-        width: 100%;
-    }
-    .skills_container {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 80%;
-    }
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
 }
 
+.skill-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+}
 
+.skill-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* Animation */
+.skill-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+.skill-card:nth-child(1) { animation-delay: 0.1s; }
+.skill-card:nth-child(2) { animation-delay: 0.2s; }
+.skill-card:nth-child(3) { animation-delay: 0.3s; }
+.skill-card:nth-child(4) { animation-delay: 0.4s; }
+.skill-card:nth-child(5) { animation-delay: 0.5s; }
+.skill-card:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 
 
