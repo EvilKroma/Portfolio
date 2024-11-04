@@ -20,6 +20,11 @@
         <div class="thumbTiles swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                    <a class="thumbTile" href="pages_projets/BTT.php">
+                        <img class="thumbTile__image" src="addons/imgs/projets/BTT/BatiTrack.png" alt="BBV2" data-background="addons/imgs/projets/BTT/background.png" data-text="Bati'Track">
+                    </a>
+                </div>
+                <div class="swiper-slide">
                     <a class="thumbTile" href="pages_projets/ASF.php">
                         <img class="thumbTile__image" src="addons/imgs/projets/BBV2/BBV2.png" alt="BBV2" data-background="addons/imgs/projets/BBV2/home.png" data-text="Projet BBV2">
                     </a>
@@ -30,13 +35,13 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="thumbTile" href="#">
-                        <img class="thumbTile__image" src="addons/imgs/projets/FJS/FJS.png" alt="FJS" data-background="addons/imgs/projets/FJS/Background_FJS.png" data-text="Projet FJS">
+                    <a class="thumbTile" href="pages_projets/VR.php">
+                        <img class="thumbTile__image" src="addons/imgs/projets/VR/VR.png" alt="Projet VR" data-background="addons/imgs/projets/VR/background.png" data-text="Projet VR">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="thumbTile" href="pages_projets/VR.php">
-                        <img class="thumbTile__image" src="addons/imgs/projets/VR/VR.png" alt="Projet VR" data-background="addons/imgs/projets/VR/background.png" data-text="Projet VR">
+                    <a class="thumbTile" href="#">
+                        <img class="thumbTile__image" src="addons/imgs/projets/FJS/FJS.png" alt="FJS" data-background="addons/imgs/projets/FJS/Background_FJS.png" data-text="Projet FJS">
                     </a>
                 </div>
                 <div class="swiper-slide">
@@ -62,9 +67,9 @@
     <div id="dynamicContent" class="dynamic-content">
         <div id="mes_infos">
             <span id="span_mes_infos">
-                Salut ! <br> Je m'appelle Dorian, je suis dévelopeur junior & étudiant en alternance en BTS SIO.
-                Je suis motivé par l’apprentissage de nouvelles technologies et l’amélioration continue de mes compétences.
-                Persévérant et curieux, je m’investis pleinement dans chaque projet pour approfondir mon expertise en développement. Avec pour ambition de poursuivre mes études en ingénierie
+                Salut ! <br> Je m'appelle Dorian, je suis dévelopeur junior & étudiant en alternance en BTS SIO.<br>
+                Je suis motivé par l’apprentissage de nouvelles technologies et l’amélioration continue de mes compétences.<br>
+                Persévérant et curieux, je m’investis pleinement dans chaque projet pour approfondir mon expertise en développement.
             </span>
         </div>
     </div>

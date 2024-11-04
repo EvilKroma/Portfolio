@@ -155,7 +155,7 @@ html, body {
 #mes_infos {
     padding: 3.5vh;
     height: auto;
-    width: 60vh;
+    width: 80vh;
     backdrop-filter: blur(2px);
     font-size: 20px;
     font-family: 'Bebas Neue', cursive;

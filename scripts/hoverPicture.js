@@ -22,6 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>Application d'organisation d'évènements.</p>
                         `;
                     break;
+                case 'Bati\'Track':
+                    customContent = `
+                        <h1>${text}</h1>
+                        <p>Application de gestion et de suivi de chantiers BTP.</p>
+                        `;
+                    break;
                 case 'Projet FJS':
                     customContent = `
                         <h1>${text}</h1>
@@ -31,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
                  case 'Projet LMJ':
                     customContent = `
                         <h1>${text}</h1>
-                        <p>Création d'une application en React, dans le but d'apprendre ce dernier langage.</p>
+                        <p>Création d'une application en React, dans le but d'apprendre ce langage.</p>
                     `;
                     break;
                 case 'Projet RespireStat':
@@ -74,9 +80,9 @@ document.addEventListener('DOMContentLoaded', function() {
             dynamicContent.innerHTML = '' +
                 '<div id="mes_infos">' +
                     '<span id="span_mes_infos">'+
-                        'Salut ! <br> Je m\'appelle Dorian, je suis dévelopeur junior & étudiant en alternance en BTS SIO.'+
-                        'Je suis motivé par l\’apprentissage de nouvelles technologies et l’amélioration continue de mes compétences.'+
-                        'Persévérant et curieux, je m’investis pleinement dans chaque projet pour approfondir mon expertise en développement. Avec pour ambition de poursuivre mes études en ingénierie'+
+                        'Salut ! <br> Je m\'appelle Dorian, je suis dévelopeur junior & étudiant en alternance en BTS SIO.<br>'+
+                        'Je suis motivé par l\’apprentissage de nouvelles technologies et l’amélioration continue de mes compétences.<br>'+
+                        'Persévérant et curieux, je m’investis pleinement dans chaque projet pour approfondir mon expertise en développement.'+
                     '</span>' +
                 '</div>';
         });
