@@ -513,7 +513,7 @@ img {
 
 
 
-                                        /* Skills */}
+                                        /* Skills */
 
 .skills-section {
     text-align: center;
@@ -587,39 +587,57 @@ img {
 
 
                                         /* Contacte */
-
- #contact {
-    text-align: center; /* Centrer le titre */
+.contact-section {
+    text-align: center;
+    padding: 10vh;
 }
 
-.contact-list {
-    list-style-type: none;
-    padding: 0;
+.contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact-options {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centre les éléments de la liste horizontalement */
-    padding-top: 10vh; 
+    align-items: center;
+    gap: 20px;
+    padding: 10vh;
 }
-.contact-list li {
-    margin: 10px 0;
-}
-.contact-list a {
-    text-decoration: none;
-    color: var(--colorWhite); /* Couleur pour LinkedIn */
-    font-size: 18px;
+
+.contact-option {
     display: flex;
     align-items: center;
+    gap: 15px;
+    padding: 15px;
+    width: 250px;
+    background: #333;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #fff;
 }
-.contact-list img {
-    width: 8vh;
-    height: auto;
-    margin-right: 10px; /* Ajoute un espace entre l'image et le texte */
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
+
+.contact-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
 }
 
+.contact-option img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease, filter 0.3s;
+}
 
+.contact-option:hover img {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
 
-/* Pas besoin de filtres spécifiques pour chaque icône si elles doivent toutes être blanches */
-
+.contact-text {
+    font-size: 1.1em;
+}
 
 

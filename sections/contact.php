@@ -1,8 +1,20 @@
 <section id="contact">
-  <h1 class="section_titre">Contactez-moi</h1>
-  <ul class="contact-list">
-      <li><a href="mailto:deneuchateldorian@gmail.com" class="mail"><img class="mail_svg" src="addons/imgs/icones/mail.svg" alt="">Envoyez-moi un mail</a></li>
-      <li><a href="https://github.com/EvilKroma" class="github" target="_blank"><img class="github_svg" src="addons/imgs/icones/github.svg" alt="">Mon GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/dorian-deneuchatel-27928325a" class="linkedin" target="_blank"><img class="linkedin_svg" src="addons/imgs/icones/linkedin.svg" alt="">Mon LinkedIn</a></li>
-  </ul>
+    <title>Contactez-moi</title>
+    <div class="contact-section">
+        <h2>Contactez-moi</h2>
+        <div class="contact-options">
+            <a href="mailto:deneuchateldorian@gmail.com" class="contact-option">
+                <img src="addons/imgs/icones/mail.svg" alt="Email Icon">
+                <span class="contact-text">M'envoyer un mail</span>
+            </a>
+            <a href="https://github.com/EvilKroma" target="_blank" class="contact-option">
+                <img src="addons/imgs/icones/github.svg" alt="GitHub Icon">
+                <span class="contact-text">Mon GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/dorian-deneuchatel-27928325a" target="_blank" class="contact-option">
+                <img src="addons/imgs/icones/linkedin.svg" alt="LinkedIn Icon">
+                <span class="contact-text">Mon LinkedIn</span>
+            </a>
+        </div>
+    </div>
 </section>
