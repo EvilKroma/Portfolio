@@ -58,6 +58,11 @@ html, body {
     margin: 0 0 3vh 0;
 }
 
+#sidebar ul li:hover {
+transform: scale(1.1);
+    transition: 0.3s;
+}
+
 #sidebar ul li a {
     display: block;
     padding: 1.2%;
