@@ -57,6 +57,15 @@
                     </div>
                 </div>
                 <hr>
+                <h1 class="titre_gallerie" >Flux RSS</h1>
+                <hr>
+                <div class="content">
+                    <p class="page_desc">Utilisation de Feedly pour avoir les dernières actualités sur la VR.</p>
+                    <div class="image-container">
+                        <img src="../addons/imgs/projets/VR/Feedly.png" alt="">
+                    </div>
+                </div>
+                <hr>
                 <h1 class="titre_gallerie" >Annexes</h1>
                 <hr>
                 <div class="fiche_synt_button">
@@ -64,7 +73,7 @@
                     <span>Présentaion</span>
                 </a>
                 </div>
-                <a class="fiche_synt_button" href="https://www.notion.so/Ma-veille-technologique-La-r-alit-virtuelle-ae04156c51494e03bc0f8440a3baf56f?pvs=4">Lien vers mon Notion</a>
+                <a class="fiche_synt_button" href="https://www.notion.so/Ma-veille-technologique-La-r-alit-virtuelle-ae04156c51494e03bc0f8440a3baf56f?pvs=4">Notion</a>
                 <hr>
             </div>
             <a href="#project-container" class="scroll-to-top">

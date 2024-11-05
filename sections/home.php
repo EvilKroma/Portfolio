@@ -35,6 +35,11 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
+                    <a class="thumbTile" href="pages_projets/Arduino.php">
+                        <img class="thumbTile__image" src="addons/imgs/projets/Arduino/Arduino.png" alt="Arduino" data-background="addons/imgs/projets/Arduino/background.png" data-text="Arduino">
+                    </a>
+                </div>
+                <div class="swiper-slide">
                     <a class="thumbTile" href="pages_projets/VR.php">
                         <img class="thumbTile__image" src="addons/imgs/projets/VR/VR.png" alt="Projet VR" data-background="addons/imgs/projets/VR/background.png" data-text="Projet VR">
                     </a>

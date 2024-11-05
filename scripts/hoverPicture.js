@@ -22,6 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>Application d'organisation d'évènements.</p>
                         `;
                     break;
+                case 'Arduino':
+                    customContent = `
+                        <h1>${text}</h1>
+                        <p>Plateforme open-source qui permet de programmer des microcontrôleurs.</p>
+                        `;
+                    break;
                 case 'Bati\'Track':
                     customContent = `
                         <h1>${text}</h1>
