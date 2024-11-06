@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574a1e1e-72d3-4550-b8f4-0b63c3a07299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages_projets/Arduino.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/downloads/Tableau_de_synthese.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/addons/downloads/Tableau_de_synthese.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/imgs/projets/VR/VR.png" beforeDir="false" afterPath="$PROJECT_DIR$/addons/imgs/projets/VR/VR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages_projets/VR.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages_projets/VR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/imgs/projets/Arduino/arduino.png" beforeDir="false" afterPath="$PROJECT_DIR$/addons/imgs/projets/Arduino/arduino.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/hoverPicture.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/hoverPicture.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sections/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/sections/home.php" afterDir="false" />
     </list>
@@ -79,7 +75,7 @@
       <workItem from="1730794309885" duration="703000" />
       <workItem from="1730796315422" duration="11000" />
       <workItem from="1730812399809" duration="55000" />
-      <workItem from="1730812717724" duration="2502000" />
+      <workItem from="1730812717724" duration="3352000" />
     </task>
     <servers />
   </component>

@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>Application d'organisation d'évènements.</p>
                         `;
                     break;
-                case 'Arduino':
+                case 'Veille technologique Arduino':
                     customContent = `
                         <h1>${text}</h1>
                         <p>Plateforme open-source qui permet de programmer des microcontrôleurs.</p>
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>Création de différents mini-outils/jeux.</p>
                         `;
                     break;
-                 case 'Projet VR':
+                 case 'Veille technologique VR':
                     customContent = `
                         <h1>${text}</h1>
                         <p>Création d'une expérience en VR pour une veille technologique sur la VR.</p>
